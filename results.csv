@@ -1,0 +1,3 @@
+Hardware,Pandas: join (average),Pandas: pivot,LightGBM,Tensorflow: CNN (per epoch),TensorFlow: CycleGAN (per epoch)
+"14” M1 Pro 8-core CPU, 14-core GPU, 16 GB memory (base model)",,,,,
+"14” M1 Pro 10-core, CPU 16-core GPU 16, GB memory",5.39082318544388,12.9256782531738,21.97800,5.89797645807266,410.655284261704
