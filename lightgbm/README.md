@@ -17,8 +17,8 @@ Recommended to install in a new conda environment.
 For example:
 
 ```bash
-conda create -n benchmark-xgboost python=3.8
-conda activate benchmark-xgboost
+conda create -n benchmark-lightgbm python=3.8
+conda activate benchmark-lightgbm
 conda install numpy scipy scikit-learn
 conda install lightgbm
 ```
