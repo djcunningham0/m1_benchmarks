@@ -33,7 +33,8 @@ Feel free to post your own results in the open issue thread if you have differen
 
 The table below shows the number of seconds recorded in each benchmark script.
 
-| Hardware                                                      |   Pandas: join (average) |   Pandas: pivot |   LightGBM |   Tensorflow: CNN (per epoch) |   TensorFlow: CycleGAN (per epoch) |
-|---------------------------------------------------------------|--------------------------|-----------------|------------|-------------------------------|------------------------------------|
-| 14” M1 Pro 8-core CPU, 14-core GPU, 16 GB memory (base model) |                          |                 |            |                               |                                    |
-| 14” M1 Pro 10-core, CPU 16-core GPU 16, GB memory             |                  5.39082 |         12.9257 |     21.978 |                       5.89798 |                            410.655 |
+| Hardware                                                                      | Pandas: join (average)   | Pandas: pivot      | LightGBM   | Tensorflow: CNN (per epoch)   | TensorFlow: CycleGAN (per epoch)   |
+|-------------------------------------------------------------------------------|--------------------------|--------------------|------------|-------------------------------|------------------------------------|
+| 14-inch MacBook Pro M1 Pro 8-core CPU, 14-core GPU, 16 GB memory (base model) |                          |                    |            |                               |                                    |
+| 14-inch MacBook Pro M1 Pro 10-core, CPU 16-core GPU 16, GB memory             | 5.39082318544388         | 12.9256782531738   | 21.978     | 5.89797645807266              | 410.655284261704                   |
+| 16-inch MacBook Pro Intel i7 6-core CPU 16 GM memory (late 2019)              | 11.952781915664673       | 23.827736854553223 | 34.46615   | 23.01214689016342             | 1605.8405574321746                 |

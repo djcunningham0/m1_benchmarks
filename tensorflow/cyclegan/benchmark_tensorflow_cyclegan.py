@@ -193,9 +193,9 @@ ckpt = tf.train.Checkpoint(
 ckpt_manager = tf.train.CheckpointManager(ckpt, CHECKPOINT_PATH, max_to_keep=5)
 
 # if a checkpoint exists, restore the latest checkpoint.
-if ckpt_manager.latest_checkpoint:
-    ckpt.restore(ckpt_manager.latest_checkpoint)
-    print("Latest checkpoint restored!!")
+#if ckpt_manager.latest_checkpoint:
+#    ckpt.restore(ckpt_manager.latest_checkpoint)
+#    print("Latest checkpoint restored!!")
 
 
 def generate_images(model, test_input):
@@ -310,9 +310,9 @@ for epoch in range(EPOCHS):
     times.append(epoch_elapsed)
     print(f"Time taken for epoch {epoch+1} is {round(epoch_elapsed)} sec")
 
-    if (epoch + 1) % 5 == 0:
-        ckpt_save_path = ckpt_manager.save()
-        print(f"Saving checkpoint for epoch {epoch+1} at {ckpt_save_path}")
+    #if (epoch + 1) % 5 == 0:
+    #    ckpt_save_path = ckpt_manager.save()
+    #    print(f"Saving checkpoint for epoch {epoch+1} at {ckpt_save_path}")
 
 print("\nRESULTS:\n--------")
 print(f"total time:      {sum(times)} seconds")
