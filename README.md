@@ -37,4 +37,8 @@ The table below shows the number of seconds recorded in each benchmark script.
 |-------------------------------------------------------------------------------|--------------------------|--------------------|------------|-------------------------------|------------------------------------|
 | 14-inch MacBook Pro M1 Pro 8-core CPU, 14-core GPU, 16 GB memory (base model) |                          |                    |            |                               |                                    |
 | 14-inch MacBook Pro M1 Pro 10-core, CPU 16-core GPU 16, GB memory             | 5.39                     | 12.93              | 21.98      | 5.90                          | 410.66                             |
-| 16-inch MacBook Pro Intel i7 6-core CPU 16 GM memory (late 2019)              | 11.95                    | 23.83              | 34.47      | 23.01                         | 1605.84                            |
+| 16-inch MacBook Pro Intel i7 6-core CPU 16 GB memory (late 2019)              | 11.95                    | 23.83              | 34.47      | 23.01                         | 1605.84                            |
+| 13-inch MacBook Pro Intel i5 2-core CPU 8 GB memory (late 2013)               | 42.32                    | 37.56              | 127.07     | 97.01                         | lol no                             |
+
+*Note: the 2013 13-inch MacBook Pro is only included because it's the computer I'm replacing.
+It's obviously much less powerful than the newer machines (it isn't even able to use GPU acceleration in TensorFlow).*
