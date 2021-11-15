@@ -1,0 +1,11 @@
+generating dataframe with 500,000 rows, 500 cols, 100 key cols... 1.9173789024353027 seconds
+generating dataframe with 500,000 rows, 500 cols, 100 key cols... 1.8653779029846191 seconds
+
+left join: 3.2713379859924316 seconds
+right join: 3.7203309535980225 seconds
+inner join: 2.5251247882843018 seconds
+outer join: 7.145510196685791 seconds
+mean join time: 4.165575981140137 seconds
+
+generating dataframe with 10,000 rows, 80 cols, 40 key cols... 0.010463953018188477 seconds
+pivot: 9.798936128616333 seconds
