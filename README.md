@@ -38,6 +38,7 @@ The table below shows the number of seconds recorded in each benchmark script.
 | 2021 14-inch MacBook Pro M1 Pro 8-core CPU, 14-core GPU, 16 GB RAM (base model) |                     5.28 |            9.68 |      25.79 |                          6.06 | 453.33                             |
 | 2021 14-inch MacBook Pro M1 Pro 10-core, CPU 16-core GPU 16, GB RAM             |                     5.39 |           12.93 |      21.98 |                          5.62 | 410.66                             |
 | 2020 MacBook Air M1 8-core CPU, 7-core GPU, 8 GB RAM (base model)               |                     9.79 |           21.74 |      28.64 |                          9.34 | 906.00\*                           |
+| 2020 MacBook Air M1 8-core CPU, 8-core GPU, 16 GB RAM                           |                     4.73 |           10.1  |      27.62 |                          8.53 | 732.8                              |
 | 2019 16-inch MacBook Pro Intel i7 6-core CPU 16 GB RAM                          |                    11.95 |           23.83 |      34.47 |                         23.01 | 1605.84                            |
 | 2013 13-inch MacBook Pro Intel i5 2-core CPU 8 GB RAM\*\*                       |                    42.32 |           37.56 |     127.07 |                         97.01 | lol no 😂                          |
 
@@ -45,7 +46,8 @@ The table below shows the number of seconds recorded in each benchmark script.
 The results are averaged for the first three epochs only (rather than the full 10).
 I was testing on a machine at the Apple Store and didn't want to loiter too long and have them kick me out 😬.
 The final number would likely be very close to the number reported here.
-There is a chance the later epochs might take a little longer due to thermal throttling (the MacBook Air has no internal fan, so it's more likely to start throttling under heavy loads than the MacBook Pro), but I wouldn't expect the difference to be too dramatic.*
+There is a chance the later epochs might take a little longer due to thermal throttling (the MacBook Air has no internal fan, so it's more likely to start throttling under heavy loads than the MacBook Pro), but I wouldn't expect the difference to be too dramatic.
+There was no noticeable throttling on the upgraded MacBook Air, which completed all epochs (granted, you would need far more epochs than I included in the benchmark script to fully train that model).*
 
 \*\**The 2013 13-inch MacBook Pro is only included because it's the computer I'm replacing.
 It's obviously doesn't really fit in with the rest and it's much less powerful than the newer machines (it isn't even able to use GPU acceleration in TensorFlow).
